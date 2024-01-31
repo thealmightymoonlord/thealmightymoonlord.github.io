@@ -1,0 +1,100 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.calculator-container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.calculator-info {
+    flex: 1;
+    padding-right: 20px;
+}
+
+.calculator {
+    flex: 2;
+    border: 2px solid #3498db;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.form {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+input, textarea {
+    width: 100%;
+    max-width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #c5391f;
+}
+
+h1, h2 {
+    text-align: center;
+    color: #e44d26;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+span {
+    font-weight: bold;
+    color: #e44d26;
+}
+
+.transaction-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.transaction-container button {
+    background-color: #e44d26;
+    color: #fff;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+    font-size: 16px;
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.transaction-container button:hover {
+    box-shadow: 0 0 10px rgba(228, 77, 38, 0.7);
+}
